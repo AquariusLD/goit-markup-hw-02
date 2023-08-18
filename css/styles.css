@@ -151,6 +151,15 @@ a {
 }
 
 /* Team */
+
+.team-page {
+  background-color: #f4f4fd;
+}
+
+.team-item {
+  background-color: #ffffff;
+}
+
 .our-team {
   color: #2e2f42;
   text-align: center;
