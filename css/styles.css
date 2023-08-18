@@ -1,14 +1,12 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
-  color: #2e2f42;
+  color: #434455;
 }
 
 .button {
   cursor: pointer;
-  border-radius: 4px;
   background: #4d5ae5;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #fff;
   font-weight: 500;
   font-size: 16px;
@@ -57,24 +55,23 @@ a {
 /* Header */
 
 .logotype-header {
-  font-family: "Raleway", sans-serif;
-}
-
-.header-logo-text-web {
   color: #4d5ae5;
-  width: 44px;
-  font-weight: 700;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
-  line-height: 1.17;
+  font-style: normal;
+  font-weight: 700;
+  line-height: calc(21 / 18);
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
+
 .header-logo-text-studio {
   color: #2e2f42;
-  width: 71px;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
+  font-style: normal;
   font-weight: 700;
-  line-height: 1.17;
+  line-height: calc(21 / 18);
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -95,6 +92,7 @@ a {
 .address-link {
   color: #434455;
   font-weight: 400;
+  font-style: normal;
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.32px;
@@ -108,6 +106,17 @@ a {
 }
 
 /* Properties */
+
+.properties-mission {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.4px;
+}
+
 .properties-list {
   color: #434455;
   font-family: Roboto;
@@ -118,6 +127,17 @@ a {
 }
 
 /* Team */
+.our-team {
+  color: #2e2f42;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: calc(40 / 36);
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
 .team-specialist {
   color: #2e2f42;
   text-align: center;
@@ -139,7 +159,14 @@ a {
 }
 
 .logotype-footer {
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: calc(21 / 18);
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 
 .footer-logo-text-web {
