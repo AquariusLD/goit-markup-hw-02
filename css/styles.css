@@ -123,6 +123,13 @@ a {
 }
 
 /* Properties */
+.section-properties {
+  background-color: #f4f4fd;
+}
+
+.properties-item {
+  background-color: #ffffff;
+}
 
 .properties-mission {
   color: #2e2f42;
@@ -176,6 +183,28 @@ a {
   letter-spacing: 0.4px;
 }
 
+/* Portfolio */
+
+.our-portfolio {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.4px;
+}
+
+.team-list {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.32px;
+}
+
 .logotype-footer {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -205,6 +234,6 @@ a {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.17;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
